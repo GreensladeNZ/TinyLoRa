@@ -45,7 +45,6 @@ void setup()
 {
   delay(2000);
   Serial.begin(9600);
-  while (! Serial);
  
   // Initialize pin LED_BUILTIN as an output
   pinMode(LED_BUILTIN, OUTPUT);
