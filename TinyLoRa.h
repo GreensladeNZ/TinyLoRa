@@ -73,9 +73,9 @@ typedef enum rfm_datarates
 } rfm_datarates_t;
 
 /** Region configuration*/
-#define US902 ///< Used in USA, Canada and South America
+//#define US902 ///< Used in USA, Canada and South America
 //#define EU863 ///< Used in Europe
-//#define AU915 ///< Used in Australia
+#define AU915 ///< Used in Australia, New Zealand
 //#define AS920 ///< Used in Asia
 
 #define RFM9x_VER   0x12 ///<Expected RFM9x RegVersion
