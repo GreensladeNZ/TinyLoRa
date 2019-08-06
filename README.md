@@ -3,7 +3,7 @@
 
 Library for communicating with [The Things Network](https://www.thethingsnetwork.org/) using a Hope RF RFM95/96/97/98(W) LoRa Transceiver Module.
 
-This fork adds support for the ESP-based LoRa32 board. Specifically the TTGO LoRa32 V2.1_1.6, I'll do my best to maintain this fork as Adafruit make changes but no guarantees. All other previously supported boards are still supported with this version. All examples have been updated with new pin mapping options.  
+This fork adds support for the ESP-based LoRa32 board. Specifically the TTGO LoRa32 V2.1_1.6, I'll try to maintain this fork as Adafruit make changes but no guarantees. All other previously supported boards are still supported with this version. All examples have been updated with new pin mapping options.  
 
 ## Documentation/Links
 
