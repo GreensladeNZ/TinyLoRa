@@ -8,6 +8,7 @@
 // Copyright 2015, 2016 Ideetron B.V.
 //
 // Modified by Brent Rubell for Adafruit Industries, 2018
+// Modified by Henry Greenslade for Otago Polytechnic, 2019
 /************************** Configuration ***********************************/
 #include <TinyLoRa.h>
 #include <SPI.h>
@@ -31,8 +32,11 @@ unsigned char loraData[11] = {"hello LoRa"};
 // How many times data transfer should occur, in seconds
 const unsigned int sendInterval = 30;
 
+// Pinout for TTGO LoRa32 V2.1_1.6
+TinyLoRa lora = TinyLoRa(26, 18, 12);
+
 // Pinout for Adafruit Feather 32u4 LoRa
-TinyLoRa lora = TinyLoRa(7, 8, 4);
+//TinyLoRa lora = TinyLoRa(7, 8, 4);
 
 // Pinout for Adafruit Feather M0 LoRa
 //TinyLoRa lora = TinyLoRa(3, 8, 4);
